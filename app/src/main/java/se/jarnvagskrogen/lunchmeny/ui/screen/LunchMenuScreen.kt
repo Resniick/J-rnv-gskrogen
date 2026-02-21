@@ -219,8 +219,7 @@ private fun WeekendBanner() {
             )
             Spacer(Modifier.width(12.dp))
             Text(
-                text = "Det är helg! Menyn nedan kan vara från förra veckan. " +
-                    "Ny meny publiceras normalt på måndag.",
+                text = "Ny meny publiceras normalt på måndag.",
                 style = MaterialTheme.typography.bodyMedium,
                 color = MaterialTheme.colorScheme.onSecondaryContainer,
             )
